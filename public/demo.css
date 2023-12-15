@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+#heading {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #CCC;
+}
+
+a {
+    color: #3388ff;
+}
+
+#map {
+    width: 100px;
+    height:100px;
+    min-height: 100%;
+    min-width: 100%;
+    display: block;    background-color: #333;
+}
+
+.leaflet-canvas-layer {
+    opacity: 0.55;
+}
+
+#logoContainerRese {
+  position: absolute;
+  z-index: 100;
+  bottom: 20px;
+  right: 70px;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 0px solid black;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+
+  display:table-cell;
+  vertical-align:middle; 
+  text-align:center;
+}
+
+#logoContainerS0 {
+  position: absolute;
+  z-index: 100;
+  bottom: 20px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 0px solid black;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+
+  display:table-cell;
+  vertical-align:middle; 
+  text-align:center;
+}
+
+#reseicon {
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    position: absolute; 
+    margin: auto;
+    max-height: 90%;
+    max-width: 90%;
+    height:auto; 
+    width:auto;
+}
+
+#s0icon {
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    position: absolute; 
+    margin: auto;
+    max-height: 80%;
+    max-width: 80%;
+    height:auto; 
+    width:auto;
+}
+
+        table {
+            width: 100%;
+        }
+
+        thead, tbody, tr, td, th { display: block; }
+
+        tr:after {
+            content: ' ';
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        thead th {
+            height: 30px;
+
+            /*text-align: left;*/
+        }
+
+        tbody {
+            height: 450px;
+            overflow-y: auto;
+        }
+
+        thead {
+            /* fallback */
+        }
+
+
+        tbody td, thead th {
+            width: 19.2%;
+            float: left;
+        }
+

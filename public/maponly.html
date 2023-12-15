@@ -1,0 +1,56 @@
+<!-- https://github.com/danwild/wind-js-leaflet -->
+
+<!doctype html>
+<html>
+<head>
+	<title>Blot Echo Wind Map</title>
+	<meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
+
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row">
+            <div class="col-md-12">
+                <div id="map">
+                    <div id="logoContainerRese">
+                    <a target="_blank" href="http://www.9rese.com/"><img src="images/9reseicon.png" id="reseicon" alt="9'Rese"></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<!-- bootstrap latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--vendor-->
+<script src="dist/promise.min.js"></script>
+<!-- To add to window -->
+<script>
+if (!window.Promise) {
+  window.Promise = Promise;
+}
+</script>
+
+<script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
+
+<script src="./dist/heatmap.js"></script>
+<script src="dist/leaflet-heatmap.js"></script>
+<script src= "dist/moment-with-locales.min.js"></script>
+
+<!--wind-js-leaflet-->
+<link rel="stylesheet" href="wind-js-leaflet.css" />
+<script src="dist/wind-js-leaflet.js"></script>
+
+<!--demo-->
+<link rel="stylesheet" href="demo.css" />
+<!-- <script src="plates.geojson"></script>
+<script src="guake100grid1x1.geojson"></script> -->
+<script src="maponly.js"></script>
+
+</body>
+</html>
