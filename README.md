@@ -3,7 +3,7 @@ This map is used to track deep earthquakes via a heatmap, current earthquakes vi
 ![alt text](https://github.com/ClecknerT/BlotWindMap/blob/master/BlotMap.png?raw=true)
 
 # wind-js-server
-Launch serve
+Launch server
 Go to server-url/latest to update the wind data
 Go to server-url/maponly.html to view and interact with them map.
 
