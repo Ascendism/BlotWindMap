@@ -47,7 +47,7 @@ app.get('/latest', function(req, res){
 	}
 	run();
 	sendLatest();
-})
+});
 
 app.get('/nearest', function(req, res, next){
 	var time = req.query.timeIso;
@@ -68,7 +68,7 @@ app.get('/nearest', function(req, res, next){
 	}
 	run();
 	sendNearestTo();
-})
+});
 
 /**
  *
@@ -113,9 +113,9 @@ function getWindGribData(){
 	}
 
 	if (month > 0 || month <= 9 ){
-		newMonthStr = '0'+month.toString();
+		newMonth = '0'+month.toString();
 	} else {
-		newMonthStr = month.toString();
+		newMonth = month.toString();
 	}
 
 	if (day >= 0 && day <= 9 ){
